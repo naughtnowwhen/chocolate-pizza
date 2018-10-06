@@ -9,26 +9,35 @@ a {
 
 header {
     width: 100%;
+    border-bottom: 10px dotted #ddd;
+    height: 80px;
+    margin-bottom: 50px;
 }
 
-#mainHeaderText{
+header>div{
     display: inline-block;
+}
+header>div div {
+  display: inline-block;
+}
+
+/* social media icon links */
+header>div:last-child {
+  float: right;
+  margin-top: 20px;
 }
 
 header h1 {
     font-family: 'Yellowtail', cursive;
     font-size: 250%;       
 }
+
 header h3{
     font-family: 'Strait', sans-serif;
     font-size: 80%;
 }
 
-header ul { 
-    float: right;
-}
-
-#imgLinks li {
+header li {
 display: inline-block;
 /* float: right; */
 } 
