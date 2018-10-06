@@ -87,6 +87,7 @@ article p {
 
 aside {
   position: relative;
+  margin-bottom: 50px;
 }
 
 aside img { 
@@ -116,4 +117,44 @@ aside li {
 
 aside span {
   text-decoration: line-through;
+}
+
+main>section {
+  border-top: 10px dotted #ddd;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+main>section>* {
+  display: inline-block;
+}
+
+main>section h2 {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 120%;
+}
+
+main>section p {
+  font-family: 'Noto Serif', serif;
+  color: #666;
+  line-height: 1.5em;
+  margin-right: 50px;
+}
+
+main>section>div {
+  width: 80%;
+  padding-right:
+}
+
+main>section button {
+  float: right;
+  width: 20%;
+  height: 60px;
+  background-color: rgb(212, 80, 80);
+  color: #eee;
+  margin-top: 70px;
+  font-size: 130%;
 }
