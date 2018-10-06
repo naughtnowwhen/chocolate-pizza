@@ -84,3 +84,33 @@ article p {
   text-indent: 50px;
   line-height: 1.5em;
 }
+
+aside {
+  position: relative;
+}
+
+aside img { 
+  width: 100%;
+}
+
+aside div {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+aside ul {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+aside li {
+  font-family: 'Patrick Hand', cursive;
+  color: #444;
+  font-size: 150%;
+  line-height: 1.5em;
+}
+
+aside span {
+  text-decoration: line-through;
+}
