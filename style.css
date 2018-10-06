@@ -39,8 +39,12 @@ header h3{
 }
 
 header li {
-display: inline-block;
+  display: inline-block;
 } 
+
+header li:nth-child(6) {
+  margin-right: 10px;
+}
 
 main>div>div {
   display: inline-block;
