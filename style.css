@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -9,26 +9,111 @@ a {
 
 header {
     width: 100%;
+    border-bottom: 10px dotted #ddd;
+    height: 80px;
+    margin-bottom: 50px;
 }
 
-#mainHeaderText{
+header>div{
     display: inline-block;
+}
+header>div div {
+  display: inline-block;
+}
+
+/* social media icon links */
+header>div:last-child {
+  float: right;
+  margin-top: 20px;
 }
 
 header h1 {
     font-family: 'Yellowtail', cursive;
     font-size: 250%;       
 }
+
 header h3{
     font-family: 'Strait', sans-serif;
     font-size: 80%;
+    color: #777;
 }
 
-header ul { 
-    float: right;
-}
-
-#imgLinks li {
+header li {
 display: inline-block;
-/* float: right; */
 } 
+
+main>div>div {
+  display: inline-block;
+}
+
+/* Print section */
+main>div>div:last-child {
+  float: right;
+  margin-top: 40px;
+  /* margin-bottom: 0; */
+}
+
+/* Print Word and Icon */
+main>div>div:last-child>* {
+  display: inline-block;
+}
+
+main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 250%;
+}
+
+main h3 {
+  font-family: 'Strait', sans-serif;
+  color: #aaa;
+}
+
+main>div {
+  margin-bottom: 30px;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+article p {
+  font-family: 'Noto Serif', serif;
+  color: #666;
+  margin-bottom: 30px;
+  text-indent: 50px;
+  line-height: 1.5em;
+}
+
+aside {
+  position: relative;
+}
+
+aside img { 
+  width: 100%;
+}
+
+aside div {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+aside ul {
+  display: inline-block;
+}
+
+aside ul:first-child {
+  margin-right:200px;
+}
+
+aside li {
+  font-family: 'Patrick Hand', cursive;
+  color: #444;
+  font-size: 150%;
+  line-height: 1.5em;
+}
+
+aside span {
+  text-decoration: line-through;
+}
