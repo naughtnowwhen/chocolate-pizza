@@ -101,7 +101,10 @@ aside div {
 
 aside ul {
   display: inline-block;
-  margin-right: 100px;
+}
+
+aside ul:first-child {
+  margin-right:200px;
 }
 
 aside li {
