@@ -35,9 +35,34 @@ header h1 {
 header h3{
     font-family: 'Strait', sans-serif;
     font-size: 80%;
+    color: #777;
 }
 
 header li {
 display: inline-block;
-/* float: right; */
 } 
+
+main>div>div {
+  display: inline-block;
+}
+
+/* Print section */
+main>div>div:last-child {
+  float: right;
+  margin-top: 20px;
+}
+
+/* Print Word and Icon */
+main>div>div:last-child>* {
+  display: inline-block;
+}
+
+main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 250%;
+}
+
+main h3 {
+  font-family: 'Strait', sans-serif;
+  color: #aaa;
+}
